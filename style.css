@@ -1,1 +1,9 @@
-
+.parent{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+#element-1, #element-3{
+align-self: flex-end;
+}
